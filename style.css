@@ -1,0 +1,138 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family: Verdana, Geneva, Microsoft Yahei, Segoe UI Symbol, sans-serif;
+	font-size:12px;
+	line-height:16px;
+}
+
+.html table {
+	border: 1px solid #DDDDDD;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	width: 100%;
+	margin: 4px auto;
+}
+.html th
+{
+	border: 1px solid #DDDDDD;
+	padding: 3px 6px;
+}
+.html td
+{
+	border: 1px solid #DDDDDD;
+	padding: 3px 6px;
+}
+
+.mono {
+	font-family: Consolas, Lucida Console, Courier New, Microsoft Yahei, Segoe UI Symbol, monospace;
+	display:inline-block;
+	background-color: #E7E7E7;
+	padding: 0px 3px;
+	line-height: 20px;
+}
+
+.image {
+	padding: 8px;
+	text-align: center;
+}
+.image img {
+	margin: 0px auto;
+	border: 1px solid #EEEEEE;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+	max-width:100%;
+	height:auto;
+}
+
+.code {
+	overflow:auto;
+	margin: 4px auto;
+	border: 1px solid #DDDDDD;
+	max-height:296px;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.code table {
+	border: 0px solid #DDDDDD;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	width: 100%;
+	overflow:scroll;
+}
+
+.code td {
+	padding:4px 0px;
+	margin:0px;
+	
+}
+
+.c_codes {
+	background-color: #FEFEFE;
+}
+
+.code pre {
+	font-family: Consolas, Lucida Console, Courier New, Microsoft Yahei, Segoe UI Symbol, monospace;
+	padding: 0px;
+	margin: 0px 8px;
+	tab-size:4;
+	color: #505050;
+}
+
+.c_lines {
+	width: 1%;
+	border-right: 2px solid #6CE26C;
+	color: #7A7A7A;
+	font-size: 12px;
+	background-color: #FAFAFA;
+}
+
+.c_lines span {
+	display: block;
+	padding: 0 8px;
+	text-align: right;
+}
+
+.c_g {
+	color:#595959;
+}
+.c_v {
+	color:#008080;
+}
+.c_n {
+	color:#A70000;
+}
+.c_k {
+	color:#0000FF;
+}
+.c_s {
+	color: #A70000;
+}
+.c_f {
+	color: #268FAD;
+}
+.c_x {
+	color: #006FE0;
+}
+.c_c {
+	color: #00A000;
+}
+.c_t {
+	color:#FF0000;
+}
+.c_o {
+	color:#002D7A;
+}
+
+
+#content, #editor {
+	margin:16px;
+	width:512px;
+}
+
+#editor textarea {
+	margin:0px 0px 8px 0px;
+	width:506px;
+	height:296px;
+	tab-size:4;
+}
